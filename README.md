@@ -183,16 +183,16 @@ Se entrenó un modelo con `XGBRegressor`, con los siguientes hiperparámetros:
 > El modelo predice con un error promedio de \~0.9 estrellas, y explica el 34.5% de la variabilidad. Es razonable para datos de comportamiento subjetivo como ratings.
 
 ## Importancia de variables
-             Feature  Importance
-6     AvgRatingMovie    0.670803
-4      AvgRatingUser    0.239777
-3     NumRatingsUser    0.016471
-5    NumRatingsMovie    0.014787
-1         AgeEncoded    0.013658
-0       GenderBinary    0.011767
-2  OccupationEncoded    0.011633
-8         GeoCluster    0.011334
-7   MainGenreEncoded    0.009770
+               Feature  Importance
+  -     AvgRatingMovie    0.670803
+  -      AvgRatingUser    0.239777
+  -     NumRatingsUser    0.016471
+  -     NumRatingsMovie    0.014787
+  -         AgeEncoded    0.013658
+  -       GenderBinary    0.011767
+  -     OccupationEncoded    0.011633
+  -         GeoCluster    0.011334
+  -     MainGenreEncoded    0.009770
 ---
 
 ##  Análisis visual del modelo
