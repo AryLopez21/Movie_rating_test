@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de Jupyter
+.ipynb_checkpoints
+
+# Archivos de PyCharm
+.idea/
+
+# Datos sensibles o temporales
+*.log
+*.tmp
+.DS_Store
+
+# Archivos generados
+models/
+data/raw/
+data/processed/

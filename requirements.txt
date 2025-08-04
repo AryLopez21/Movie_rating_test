@@ -1,0 +1,25 @@
+# Manejo de datos
+pandas
+numpy
+
+# Visualización
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Notebooks
+jupyter
+
+# Peticiones web y API
+requests
+pyyaml
+tqdm
+
+# Soporte general
+python-dotenv
+
+
+joblib
