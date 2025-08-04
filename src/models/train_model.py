@@ -45,13 +45,13 @@ def train_model():
     y_pred = model.predict(X_test)
 
     # Evaluación
-    print("📊 Métricas en test:")
+    print(" Métricas en test:")
     print(f"RMSE: {np.sqrt(mean_squared_error(y_test, y_pred)):.4f}")
     print(f"MAE: {mean_absolute_error(y_test, y_pred):.4f}")
     print(f"R²: {r2_score(y_test, y_pred):.4f}")
 
     # Validación cruzada
-    print("\n🔁 Validación cruzada (5-fold RMSE):")
+    print("\n Validación cruzada (5-fold RMSE):")
     rmse_cv = np.sqrt(-cross_val_score(model, X, y, cv=5, scoring="neg_mean_squared_error"))
     print(f"RMSE mean: {rmse_cv.mean():.4f} | std: {rmse_cv.std():.4f}")
 
@@ -62,12 +62,12 @@ def train_model():
         "Importance": importances
     }).sort_values(by="Importance", ascending=False)
 
-    print("\n🔥 Top 10 variables más importantes:")
+    print("\n Top 10 variables más importantes:")
     print(importance_df.head(10))
 
     # Guardar modelo
     joblib.dump(model, "models/xgb_model.pkl")
-    print("\n✅ Modelo guardado en models/xgb_model.pkl")
+    print("\n Modelo guardado en models/xgb_model.pkl")
 
 
 if __name__ == "__main__":
