@@ -2,7 +2,7 @@
 
 # Recomendador de Películas - Prueba técnica Banorte (Científico de Datos)
 
-Este proyecto fue desarrollado como parte de una prueba técnica para la vacante de Científico de Datos en el área de Analítica Modelaje en Banorte. Utiliza el dataset MovieLens 1M y está enfocado en predecir la calificación que un usuario podría darle a una película, usando variables creadas, enriquecidas y procesadas profesionalmente.
+Este proyecto fue desarrollado como parte de una prueba técnica para la vacante en el área de Analítica Modelaje. Utiliza el dataset MovieLens 1M y está enfocado en predecir la calificación que un usuario podría darle a una película, usando variables creadas, enriquecidas y procesadas profesionalmente.
 
 ---
 
