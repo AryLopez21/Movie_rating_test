@@ -204,22 +204,10 @@ Todos los scripts se ejecutan con:
 
 ```bash
 python -m src.<modulo>
-```
-
----
-
-## 💼 Conclusión
-
-Este proyecto demuestra:
-
-* Capacidad técnica en ciencia de datos aplicada
-* Dominio de flujo profesional: EDA, features, modelado, validación
-* Creatividad para enriquecer con APIs y construir variables personalizadas
-* Documentación clara y ejecución reproducible
 
 ---   
 ```
-```
+
 
 
 ## 🚀 Cómo reproducir este proyecto en otra máquina
