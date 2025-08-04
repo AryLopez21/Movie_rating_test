@@ -125,6 +125,8 @@ Se generaron variables pensadas para aportar información real al modelo, incluy
 - Temporales:
   - `RatingYear`, `EstimatedAgeAtRating`
 
+
+
 ---
 
 ## Modelado con XGBoost
@@ -180,6 +182,17 @@ Se entrenó un modelo con `XGBRegressor`, con los siguientes hiperparámetros:
 
 > El modelo predice con un error promedio de \~0.9 estrellas, y explica el 34.5% de la variabilidad. Es razonable para datos de comportamiento subjetivo como ratings.
 
+## Importancia de variables
+             Feature  Importance
+6     AvgRatingMovie    0.670803
+4      AvgRatingUser    0.239777
+3     NumRatingsUser    0.016471
+5    NumRatingsMovie    0.014787
+1         AgeEncoded    0.013658
+0       GenderBinary    0.011767
+2  OccupationEncoded    0.011633
+8         GeoCluster    0.011334
+7   MainGenreEncoded    0.009770
 ---
 
 ##  Análisis visual del modelo
@@ -279,8 +292,7 @@ python -m src.models.train_model
 * El modelo puede ser útil como base para un sistema de recomendación más completo, combinando contenido (géneros), historial de usuario y ubicación.
 * El modelo nos ayuda a predecir de forma aceptable la calificación que un usuario podría dar a una película, utilizando únicamente variables estructuradas.
 * Durante el desarrollo se concluyó que XGBoost era una excelente opción por su capacidad para manejar variables numéricas y categóricas sin necesidad de codificación one-hot.
-* Sería interesante explorar otros enfoques como modelos de ranking, deep learning o sistemas híbridos para comparar desempeño.
-* El modelo puede seguir mejorando si se enriquece con otras fuentes de información como sinopsis, reseñas o comportamiento en tiempo real.
+* El modelo puede seguir mejorando si se enriquece con otras fuentes de información como sinopsis, reseñas o creando nuevas variables como funciones de las actualse.
 
 ---
 
